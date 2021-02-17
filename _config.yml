@@ -13,7 +13,7 @@ baseurl:          /
 
 author:
   name:           'Jason Sohn'
-  url:            https://github.com/neuroquantifier
+  url:            https://github.com/tensorturtle
 
 paginate:         5
 
@@ -21,4 +21,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/neuroquantifier
+  repo:           https://github.com/tensorturtle
