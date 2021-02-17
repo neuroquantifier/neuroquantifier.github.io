@@ -1,8 +1,8 @@
 ---
 layout: post
-title: bash elements
+title: Bash Script Elements 
 ---
-# Bash Script Elements 
+## Datetime 
 
 ```bash
 #!/user/bin/bash
