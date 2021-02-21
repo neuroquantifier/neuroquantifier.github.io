@@ -22,7 +22,7 @@ import smtplib
 from email.message import EmailMessage
 
 def email(title,body):
-    username = 'vectorizedlove@gmail.com'
+    username = 'SENDER_EMAIL@gmail.com'
     password = 'enter password'
     sent_from = username
     to = ['neuroquantifier@gmail.com']
