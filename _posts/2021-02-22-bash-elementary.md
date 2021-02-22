@@ -14,7 +14,7 @@ echo The Linux Epoch started $LINUX_EPOCH seconds ago.
 ```
 
 
-## User Input Arguments
+## Arguments
 
 Simplest format: $n, where n is nth argument (separated by spaces)
 ```bash
@@ -38,4 +38,8 @@ echo $@
 echo Number of arguments passed: $#
 ```
 
-## 
+## Executing Shell Commands from within
+Use backticks
+```bash
+echo `uname -o` #any shell command works
+```
