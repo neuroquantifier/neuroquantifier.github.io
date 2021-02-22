@@ -67,6 +67,8 @@ echo "Exit Bash Trap example"
 + Bash arrays can have any data type.
 + Do not leave spaces around "=" sign (like any other bash variable)
 
+### Declare simple bash array
+
 ```bash
 ARRAY=('specialized' 'trek' merida 100) #space-separated values
 LEN=${#ARRAY[@]}
@@ -75,3 +77,5 @@ for((i=0; i<$LEN; i++)); do
   echo ${ARRAY[${i}]} # print out each item
 done
 ```
+
+### Read file into bash array
