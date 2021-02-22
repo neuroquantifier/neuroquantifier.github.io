@@ -50,7 +50,7 @@ echo `uname -o` #any shell command works
 ```bash
 trap my_trap SIGINT
 
-my_trap{
+my_trap(){
   echo "CTRL+C Detected! Halting."
   exit
 }
