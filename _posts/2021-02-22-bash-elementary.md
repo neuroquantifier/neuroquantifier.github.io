@@ -36,7 +36,7 @@ echo $@
 **Length of list of args**:
 ```bash
 echo Number of arguments passed: $#
-```
+```A
 
 ## Executing Shell Commands from within
 Use backticks
@@ -46,7 +46,7 @@ echo `uname -o` #any shell command works
 
 ## Bash Trap
 
-### Ctrl+C to quit
+**Ctrl+C to quit**
 ```bash
 trap my_trap SIGINT
 
@@ -60,3 +60,18 @@ for i in `seq 1 10`; do
   sleep 1;
 done
 echo "Exit Bash Trap example"
+```
+
+## Arrays 
+
++ Bash arrays can have any data type.
++ Do not leave spaces around "=" sign (like any other bash variable)
+
+```bash
+ARRAY=('specialized' 'trek' merida 100) #space-separated values
+LEN=${#ARRAY[@]}
+
+for((i=0; i<$LEN; i++)); do
+  echo ${ARRAY[${i}]} # print out each item
+done
+```
