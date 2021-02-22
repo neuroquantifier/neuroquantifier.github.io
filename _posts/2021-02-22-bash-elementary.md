@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash Script Elements 
+title: Elements of Bash Script
 ---
 ## Datetime 
 
@@ -38,3 +38,4 @@ echo $@
 echo Number of arguments passed: $#
 ```
 
+## 
