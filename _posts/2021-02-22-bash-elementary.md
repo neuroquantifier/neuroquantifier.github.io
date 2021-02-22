@@ -43,3 +43,20 @@ Use backticks
 ```bash
 echo `uname -o` #any shell command works
 ```
+
+## Bash Trap
+
+### Ctrl+C to quit
+```bash
+trap my_trap SIGINT
+
+my_trap{
+  echo "CTRL+C Detected! Halting."
+  exit
+}
+
+for i in `seq 1 10`; do
+  echo "$a/10 to finish"
+  sleep 1;
+done
+echo "Exit Bash Trap example"
