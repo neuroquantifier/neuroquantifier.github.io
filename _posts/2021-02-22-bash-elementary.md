@@ -78,7 +78,9 @@ for((i=0; i<$LEN; i++)); do
 done
 ```
 
-## Arithmetic Comparisons
+## Comparisons
+
+### Arithmetic 
 
 Bash | Math
 ---|---
@@ -88,5 +90,17 @@ Bash | Math
 -ge | >=
 -eq | ==
 -ne | !=
+
+### String
+
+Bash | Math
+--- | ---
+= | equal
+!= | not equal
+< | less than 
+> | greater than
+-n s1 | string s1 is not empty
+-z s2 | string s2 is empty
+
 
 
