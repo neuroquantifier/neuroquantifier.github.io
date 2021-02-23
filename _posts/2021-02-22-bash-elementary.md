@@ -100,8 +100,8 @@ Bash | Math
 < | less than 
 \> | greater than
 string1 =~ regex | string1 matches regex
--n s1 | string s1 is not empty
--z s2 | string s2 is empty
+-n s1 | string s1 is not zero
+-z s2 | string s2 is zero
 
 
 
