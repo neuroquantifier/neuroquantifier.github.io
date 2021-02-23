@@ -78,4 +78,15 @@ for((i=0; i<$LEN; i++)); do
 done
 ```
 
-### Read file into bash array
+## Arithmetic Comparisons
+
+Bash | Math
+---|---
+-lt | <
+-gt | >
+-le | <=
+-ge | >=
+-eq | ==
+-ne | !=
+
+
