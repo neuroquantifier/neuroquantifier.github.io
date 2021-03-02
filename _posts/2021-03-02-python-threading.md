@@ -1,8 +1,7 @@
 ---
 layout: post
-title: python threading 
+title: Python Threading 
 ---
-## Python Threading 
 
 Outline: Define a function, then initiate it as a thread.
 
