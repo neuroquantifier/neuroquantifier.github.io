@@ -12,7 +12,7 @@ import threading
 def my_function(function_args):
 	pass
 
-new_thread = threading.Thread(target=my_function, args=(function_args,), daemon=True)
+new_thread = threading.Thread(target=my_function, args=([function_arg1, function_arg2]), daemon=True)
 new_thread.start()
 
 ```
