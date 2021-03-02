@@ -42,5 +42,4 @@ print(f"Process id: {os.getpid()})
 
 # get parent process id (ppid)
 print(f"Parent process id: {os.getppid()}")
-
-
+```
